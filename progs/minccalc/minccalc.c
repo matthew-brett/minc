@@ -253,7 +253,7 @@ ArgvInfo argTable[] = {
    {NULL, ARGV_END, NULL, NULL, NULL}
 };
 
-extern int yydebug;
+int yydebug;
 sym_t      rootsym;
 vector_t   A;
 scalar_t   *Output_values;
